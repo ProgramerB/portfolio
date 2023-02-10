@@ -77,3 +77,20 @@
 div.image-row{
    text-align: left;
 }
+
+@media all and (max-width:800px){
+    .col{
+        width: 100%;
+        display:block;
+    }
+    .left-col{
+        float: none;
+    }
+    .right-col{
+        float: none;
+    }
+    .main-image{
+        margin-left: 0px;
+        width: 100%;
+    }
+}

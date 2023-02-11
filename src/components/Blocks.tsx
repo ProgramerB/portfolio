@@ -8,7 +8,7 @@ const Blocks = () => {
         <div className='blocks'>
             {items?.map((item)=>{
                 return(
-                    <Block id={item.id} name ={item.name} image={item.image}/>
+                    <Block id={item.id} name ={item.name} image={item.image} description={item.description} />
                 )
             })}
         </div>

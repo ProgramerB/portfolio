@@ -32,7 +32,7 @@ const Nav = () => {
               <Link className='page' to="/about" onClick={showNav}>About</Link>
               <Link className='page' to="/" onClick={showNav}>Gallery</Link>
               <Link className='page' to="/contact" onClick={showNav}>Contact</Link>
-              <a className='page' href='https://www.youtube.com/' target='_blank' rel="noopener noreferrer" onClick={showNav}>Instagram</a>
+              <a className='page' href='https://www.instagram.com/nadar_divya/' target='_blank' rel="noopener noreferrer" onClick={showNav}>Instagram</a>
           </span>
             
         </nav>

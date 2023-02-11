@@ -7,7 +7,6 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Item from './components/Item';
 import Footer from './components/Footer';
-
 function Main(){
   return(
     <div className="main">

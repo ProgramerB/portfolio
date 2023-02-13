@@ -83,6 +83,16 @@ div.image-row{
    text-align: left;
 }
 
+.contacts{
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    color: #000000;
+}
+.contacts:hover{
+    text-decoration: underline;
+}
+
 @media all and (max-width:800px){
     .col{
         width: 100%;
@@ -98,5 +108,8 @@ div.image-row{
     .main-image{
         margin-left: 0px;
         width: 100%;
+    }
+    .block:hover >.headingBlock{
+        display: none;
     }
 }

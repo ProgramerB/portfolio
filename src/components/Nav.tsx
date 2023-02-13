@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import { useState } from "react";
 import {AiOutlineMenu} from "react-icons/ai";
 const Nav = () => {
@@ -28,10 +28,10 @@ const Nav = () => {
           </span>
             
           <span className={navClass}>
-              
-              <Link className='page' to="/about" onClick={showNav}>About</Link>
-              <Link className='page' to="/" onClick={showNav}>Gallery</Link>
-              <Link className='page' to="/contact" onClick={showNav}>Contact</Link>
+          {/* {({isActive}) => isActive ? "page active" : "page"} */}
+              <NavLink className='page' to="/about" onClick={showNav}>About</NavLink>
+              <NavLink className='page' to="/" onClick={showNav}>Gallery</NavLink>
+              <NavLink className='page' to="/contact" onClick={showNav}>Contact</NavLink>
               <a className='page' href='https://www.instagram.com/nadar_divya/' target='_blank' rel="noopener noreferrer" onClick={showNav}>Instagram</a>
           </span>
             

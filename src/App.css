@@ -9,6 +9,7 @@
     margin-left: 10%;
     right: 10%;
     margin-top: 20px;
+    min-height: calc(100vh - 140px);
 }
 .nav{
     height: 50px;
@@ -24,7 +25,10 @@
     display: inline-block;
     text-align: center;
 }
-
+.nav .active{
+    text-decoration: underline;
+    /* background-color: #5c5c5c; */
+}
 .nav .page:hover{
     text-decoration: underline;
 }

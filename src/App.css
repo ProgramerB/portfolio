@@ -9,7 +9,7 @@
     margin-left: 10%;
     right: 10%;
     margin-top: 20px;
-    min-height: calc(100vh - 140px);
+    min-height: calc(100vh - 100px);
 }
 .nav{
     height: 50px;
@@ -128,5 +128,8 @@
     }
     .nav .name{
         display: block;
+    }
+    .main{
+        min-height: 110vh;
     }
 }

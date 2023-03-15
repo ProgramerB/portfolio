@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-
+:root{
+    --textColor:#000000;
+    --bodyColor:#ffffff;
+    --footBodyColor:#eeeff0;
+    --footTextColor:#5c5c5c;
+}
 .App{
-    background-color: rgb(255, 255, 255);
+    background-color: var(--bodyColor);
+    color: var(--textColor);
     font-family: "Quicksand";
+    transition: all 1s;
 }
 .main{
     width:80%;
@@ -19,11 +26,12 @@
 .nav .page{
     text-decoration: none;
     font-size: 20px;
-    color: #000000;
+    color: var(--textColor);
     width: 100px;
     margin-left: 10px;
     display: inline-block;
     text-align: center;
+    transition: all 1s;
 }
 .nav .active{
     text-decoration: underline;
@@ -67,7 +75,7 @@
 }
 
 .foot{
-    background-color: #eeeff0;
+    background-color: var(--footBodyColor);
     /* position:sticky;
     left:0;
     bottom: 0; */
@@ -75,7 +83,8 @@
     height: 50px;
     line-height: 50px;
     text-align: center;
-    color: #5c5c5c;
+    color: var(--footTextColor);
+    transition: all 1s;
 }
 
 .title{
@@ -96,7 +105,7 @@
 .profilePic{
     width: 300px;
     height: 300px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     filter: grayscale(100%);
     /* margin-left: 100px; */
 }
@@ -119,7 +128,7 @@
         height: 100%;
         position: absolute;
         z-index: 5;
-        background-color: #ffffff;
+        background-color: var(--bodyColor)
     }
     .nav .page{
         width: 100%;

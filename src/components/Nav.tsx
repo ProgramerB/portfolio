@@ -30,9 +30,10 @@ const Nav = () => {
           <span className={navClass}>
           {/* {({isActive}) => isActive ? "page active" : "page"} */}
               <NavLink className='page' to="/about" onClick={showNav}>About</NavLink>
-              <NavLink className='page' to="/" onClick={showNav}>Gallery</NavLink>
+              <NavLink className='page' to="/" onClick={showNav}>Work</NavLink>
               <NavLink className='page' to="/contact" onClick={showNav}>Contact</NavLink>
-              <a className='page' href='https://www.instagram.com/nadar_divya/' target='_blank' rel="noopener noreferrer" onClick={showNav}>Instagram</a>
+              <NavLink className='page' to="/hobby" onClick={showNav}>Hobby</NavLink>
+              {/* <a className='page' href='https://www.instagram.com/nadar_divya/' target='_blank' rel="noopener noreferrer" onClick={showNav}>Instagram</a> */}
           </span>
             
         </nav>

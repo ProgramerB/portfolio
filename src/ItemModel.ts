@@ -49,3 +49,24 @@ export const items:ItemData[] = [
         description: 'I am groot'
     },
 ]
+
+export const hobbyItems:ItemData[] = [
+    {
+        id:1,
+        name: 'Dewdrop Leaf',
+        image: leaf,
+        description: 'A leaf hobby'
+    },
+    {
+        id:2,
+        name: "Rural Bike",
+        image: bike,
+        description: 'Boke'
+    },
+    {
+        id:3,
+        name: "Train Ride",
+        image: train,
+        description: 'Chhu Chu'
+    },
+]

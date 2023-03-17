@@ -14,7 +14,6 @@ const Block = (item:ItemData) => {
         if(loc.pathname === "/")
         {
           navigate("item/"+item.id);
-          
         }
         else
         {

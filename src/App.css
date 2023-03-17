@@ -8,7 +8,7 @@
 .App{
     background-color: var(--bodyColor);
     color: var(--textColor);
-    font-family: "Quicksand";
+    font-family: 'Quicksand', sans-serif;
     transition: all 1s;
 }
 .main{

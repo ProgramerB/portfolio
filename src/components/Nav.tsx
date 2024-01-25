@@ -20,7 +20,8 @@ const Nav = () => {
       
         <nav className="nav">
           <span className='left'>
-            <div className='page name'>Divya Nadar</div>
+            <div className='name'>Divya Nadar</div>
+            {/* page */}
           </span>
 
           <span className='mid'>
@@ -29,10 +30,11 @@ const Nav = () => {
             
           <span className={navClass}>
           {/* {({isActive}) => isActive ? "page active" : "page"} */}
-              <NavLink className='page' to="/about" onClick={showNav}>About</NavLink>
-              <NavLink className='page' to="/" onClick={showNav}>Work</NavLink>
-              <NavLink className='page' to="/contact" onClick={showNav}>Contact</NavLink>
-              <NavLink className='page' to="/hobby" onClick={showNav}>Hobby</NavLink>
+              <NavLink className='page' to="/about" onClick={showNav}>My story</NavLink>
+              <NavLink className='page' to="/" onClick={showNav}>Work Projects</NavLink>
+              {/* <NavLink className='page' to="/contact" onClick={showNav}>Contact</NavLink> */}
+              <NavLink className='page' to="/hobby" onClick={showNav}>My Creations</NavLink>
+              <NavLink className='page' to="/lens&lines" onClick={showNav}>Through my lens and lines</NavLink>
               {/* <a className='page' href='https://www.instagram.com/nadar_divya/' target='_blank' rel="noopener noreferrer" onClick={showNav}>Instagram</a> */}
           </span>
             

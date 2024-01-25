@@ -20,7 +20,7 @@ const Nav = () => {
       
         <nav className="nav">
           <span className='left'>
-            <div className='name'>Divya Nadar</div>
+            <div className='page name'>Divya Nadar</div>
             {/* page */}
           </span>
 

@@ -44,7 +44,7 @@
 }
 
 .nav .left{
-    width: 40%;
+    width: 10%;
     display: inline-block;
     margin-left: 10%;
 }
@@ -52,7 +52,7 @@
     display: none;
 }
 .nav .right{
-    width:40%;
+    width:70%;
     text-align: right;
     display: inline-block;
     margin-right: 10%;
@@ -111,7 +111,7 @@
     filter: grayscale(100%);
     /* margin-left: 100px; */
 }
-@media all and (max-width:800px){
+@media all and (max-width:1200px){
     .nav .left{
         width: 80%;
         margin-left: 10%;

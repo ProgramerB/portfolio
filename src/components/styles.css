@@ -16,16 +16,18 @@
 }
 
 .spinner{
-    width: 50px;
-    height:50px;
-    border: 10px #b1afaf solid;
-    border-top-color: #000000;
+    width: 30px;
+    height:30px;
+    border: 5px var(--footBodyColor) solid;
+    border-top-color: var(--footTextColor);
     border-radius: 100px;
+    transition: 1s border-top-color border;
     animation: 1s linear spinner-spin infinite;
     display: block;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 @keyframes spinner-spin {

@@ -9,7 +9,7 @@ import Item from './components/Item';
 import Footer from './components/Footer';
 import { hobbyItems, items } from './ItemModel';
 import ItemHobby from './components/ItemHobby';
-import LensLines from './components/LensLines';
+// import LensLines from './components/LensLines';
 function Main(){
 
   return(
@@ -37,9 +37,9 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/about' element={<About />} />
           <Route path="item/:id" element={<Item />} />
-          <Route path='/hobby' element={<Hobby />} />
-          <Route path="hobby/:id" element={<ItemHobby />} />
-          <Route path="/lens&lines" element={<LensLines />} />
+          <Route path='/mylens' element={<Hobby />} />
+          <Route path="mylens/:id" element={<ItemHobby />} />
+          {/* <Route path="/lens&lines" element={<LensLines />} /> */}
       </Routes>
       </BrowserRouter>
       <Footer />

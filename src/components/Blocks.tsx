@@ -8,7 +8,7 @@ type ItemsProp = {
 }
 const Blocks = (list:ItemsProp) => {  
     let loc = useLocation()
-    if(loc.pathname === '/hobby'){
+    if(loc.pathname === '/mylens'){
         document.documentElement.style.setProperty('--bodyColor',"#000000")
         document.documentElement.style.setProperty('--textColor',"#ffffff")
         document.documentElement.style.setProperty('--footBodyColor',"#0c0d0d")
@@ -21,8 +21,6 @@ const Blocks = (list:ItemsProp) => {
         document.documentElement.style.setProperty('--textColor',"#000000")
         document.documentElement.style.setProperty('--footBodyColor',"#eeeff0")
         document.documentElement.style.setProperty('--footTextColor',"#5c5c5c")
-
-
     }
     return (
         <div className='blocks'>

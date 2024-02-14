@@ -33,8 +33,8 @@ const Nav = () => {
               <NavLink className='page' to="/about" onClick={showNav}>My story</NavLink>
               <NavLink className='page' to="/" onClick={showNav}>Work projects</NavLink>
               {/* <NavLink className='page' to="/contact" onClick={showNav}>Contact</NavLink> */}
-              <NavLink className='page' to="/hobby" onClick={showNav}>My creations</NavLink>
-              <NavLink className='page' to="/lens&lines" onClick={showNav}>Through my lens and lines</NavLink>
+              <NavLink className='page' to="/mylens" onClick={showNav}>Through my lens and lines</NavLink>
+              {/* <NavLink className='page' to="/lens&lines" onClick={showNav}>Through my lens and lines</NavLink> */}
               {/* <a className='page' href='https://www.instagram.com/nadar_divya/' target='_blank' rel="noopener noreferrer" onClick={showNav}>Instagram</a> */}
           </span>
             

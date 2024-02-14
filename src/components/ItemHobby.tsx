@@ -1,6 +1,7 @@
 import React from 'react'
 import {useParams} from "react-router-dom";
 import { hobbyItems } from '../ItemModel';
+
 const ItemHobby = () => {
     const {id} = useParams();
     return (

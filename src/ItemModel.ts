@@ -1,6 +1,6 @@
-import leaf from './img/leaf.png'
-import bike from './img/bike.png'
-import train from './img/train.png'
+// import leaf from './img/leaf.png'
+// import bike from './img/bike.png'
+// import train from './img/train.png'
 // import city from './img/city.png'
 // import horse from './img/horse.png'
 // import plant from './img/plant.png'
@@ -49,6 +49,24 @@ import book_13 from './img/work/book/13.png'
 import other_work_1 from './img/work/1.png'
 import other_work_2 from './img/work/2.png'
 import other_work_3 from './img/work/3.png'
+
+
+import lens_1 from './img/lens/1.jpg'
+import lens_2 from './img/lens/2.jpg'
+import lens_3 from './img/lens/3.jpg'
+import lens_4 from './img/lens/4.jpg'
+import lens_5 from './img/lens/5.jpg'
+import lens_6 from './img/lens/6.jpg'
+import lens_7 from './img/lens/7.jpg'
+import lens_8 from './img/lens/8.jpg'
+import lens_9 from './img/lens/9.jpg'
+import lens_10 from './img/lens/10.jpg'
+import lens_11 from './img/lens/11.jpg'
+import lens_12 from './img/lens/12.jpg'
+import lens_13 from './img/lens/13.jpg'
+import lens_14 from './img/lens/14.jpg'
+import lens_15 from './img/lens/15.jpg'
+
 
 export type ItemData = {
     id: number
@@ -298,20 +316,92 @@ export const items:ItemData[] = [
 export const hobbyItems:ItemData[] = [
     {
         id:1,
-        name: 'Dewdrop Leaf',
-        image: leaf,
-        description: 'A leaf hobby'
+        name: '',
+        image: lens_1,
+        description: ''
     },
     {
         id:2,
-        name: "Rural Bike",
-        image: bike,
-        description: 'Boke'
+        name: "",
+        image: lens_2,
+        description: ''
     },
     {
         id:3,
-        name: "Train Ride",
-        image: train,
-        description: 'Chhu Chu'
+        name: "",
+        image: lens_3,
+        description: ''
+    },
+    {
+        id:4,
+        name: '',
+        image: lens_4,
+        description: ''
+    },
+    {
+        id:5,
+        name: "",
+        image: lens_5,
+        description: ''
+    },
+    {
+        id:6,
+        name: "",
+        image: lens_6,
+        description: ''
+    },
+    {
+        id:7,
+        name: '',
+        image: lens_7,
+        description: ''
+    },
+    {
+        id:8,
+        name: "",
+        image: lens_8,
+        description: ''
+    },
+    {
+        id:9,
+        name: '',
+        image: lens_9,
+        description: ''
+    },
+    {
+        id:10,
+        name: "",
+        image: lens_10,
+        description: ''
+    },
+    {
+        id:11,
+        name: '',
+        image: lens_11,
+        description: ''
+    },
+    {
+        id:12,
+        name: "",
+        image: lens_12,
+        description: ''
+    },
+    {
+        id:13,
+        name: "",
+        image: lens_13,
+        description: ''
+    },
+    {
+        id:14,
+        name: "",
+        image: lens_14,
+        description: ''
+    },
+    {
+        id:15,
+        name: "",
+        image: lens_15,
+        description: ''
     },
 ]

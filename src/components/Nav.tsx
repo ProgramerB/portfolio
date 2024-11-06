@@ -36,6 +36,13 @@ const Nav = () => {
               <NavLink className='page' to="/mylens" onClick={showNav}>Through my lens and lines</NavLink>
               {/* <NavLink className='page' to="/lens&lines" onClick={showNav}>Through my lens and lines</NavLink> */}
               {/* <a className='page' href='https://www.instagram.com/nadar_divya/' target='_blank' rel="noopener noreferrer" onClick={showNav}>Instagram</a> */}
+              <NavLink className='page' to="/" onClick={showNav}>Content with canva and photoshop</NavLink>
+              <NavLink className='page' to="/" onClick={showNav}>Blog posts and articles</NavLink>
+              <NavLink className='page' to="/" onClick={showNav}>Campaign proposal examples</NavLink>
+              <NavLink className='page' to="/" onClick={showNav}>Cohesive branding example</NavLink>
+              <NavLink className='page' to="/" onClick={showNav}>Influencer marleting strategy</NavLink>
+
+              
           </span>
             
         </nav>

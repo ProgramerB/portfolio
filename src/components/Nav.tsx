@@ -31,16 +31,18 @@ const Nav = () => {
           <span className={navClass}>
           {/* {({isActive}) => isActive ? "page active" : "page"} */}
               <NavLink className='page' to="/about" onClick={showNav}>My story</NavLink>
-              <NavLink className='page' to="/" onClick={showNav}>Work projects</NavLink>
+              
               {/* <NavLink className='page' to="/contact" onClick={showNav}>Contact</NavLink> */}
-              <NavLink className='page' to="/mylens" onClick={showNav}>Through my lens and lines</NavLink>
+              
               {/* <NavLink className='page' to="/lens&lines" onClick={showNav}>Through my lens and lines</NavLink> */}
               {/* <a className='page' href='https://www.instagram.com/nadar_divya/' target='_blank' rel="noopener noreferrer" onClick={showNav}>Instagram</a> */}
-              <NavLink className='page' to="/" onClick={showNav}>Content with canva and photoshop</NavLink>
-              <NavLink className='page' to="/" onClick={showNav}>Blog posts and articles</NavLink>
-              <NavLink className='page' to="/" onClick={showNav}>Campaign proposal examples</NavLink>
-              <NavLink className='page' to="/" onClick={showNav}>Cohesive branding example</NavLink>
-              <NavLink className='page' to="/" onClick={showNav}>Influencer marleting strategy</NavLink>
+              <NavLink className='page' to="/canva_photoshop" onClick={showNav}>Content with canva and photoshop</NavLink>
+              {/* <NavLink className='page' to="/" onClick={showNav}>Blog posts and articles</NavLink> */}
+              <NavLink className='page' to="/print_medias" onClick={showNav}>Content that made to the print media</NavLink>
+              <NavLink className='page' to="/" onClick={showNav}>Projects</NavLink>
+              <NavLink className='page' to="/mylens" onClick={showNav}>Through my lens and lines</NavLink>
+              {/* <NavLink className='page' to="/" onClick={showNav}>Cohesive branding example</NavLink> */}
+              {/* <NavLink className='page' to="/" onClick={showNav}>Influencer marleting strategy</NavLink> */}
 
               
           </span>

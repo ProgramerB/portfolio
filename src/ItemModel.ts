@@ -405,3 +405,6 @@ export const hobbyItems:ItemData[] = [
         description: ''
     },
 ]
+
+export const canvaPhotoshopItems:ItemData[] = []
+export const printMediaItems:ItemData[] = []

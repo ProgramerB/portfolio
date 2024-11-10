@@ -147,6 +147,10 @@
     }
     .main{
         min-height: 200vh;
+        width:90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
     }
     .profilePic{
         /* width: 300px;
